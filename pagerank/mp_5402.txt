@@ -1,0 +1,13 @@
+Hashing (Option 2)
+
+Compilation: javac hash_5402.java
+Execution: java hash_5402 <name of file>
+Example: java hash_5402 file.txt
+Bugs: The HashSearch function does not work properly. Every other function works as intended. 
+
+Pagerank (Option 3)
+
+Compilation: javac pagerank_5402.java
+Execution: java pagerank_5402 <iterations> <initialvalue> <filename>
+Example: java pagerank_5402 15 -1 samplegraph.txt
+Bugs: HANDOUT 2 ADHERED; NO BUGS TO REPORT

@@ -1,0 +1,13 @@
+sohn/
+
+shell/
+
+*.out
+
+*.pdf
+
+*.in
+
+*.correct
+
+*.class

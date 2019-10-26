@@ -1,0 +1,8 @@
+int a;
+int b;
+
+set a 3;
+set b a/a*a;
+
+println a;
+println b;

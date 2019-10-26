@@ -1,0 +1,445 @@
+Project 1 for CS 341
+Semester: Fall 2018
+Written by: Uday Manchanda, um44
+Instructor: Marvin Nakayama, marvin@njit.edu
+
+The URL is: foo@njit.com
+
+The current state is q0
+The current state is q6 -> f
+The current state is q6 -> o
+The current state is q6 -> o
+The current state is q6 -> @
+The current state is q6 -> n
+The current state is q6 -> j
+The current state is q6 -> i
+The current state is q6 -> t
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: z@c.com
+
+The current state is q0
+The current state is q6 -> z
+The current state is q6 -> @
+The current state is q6 -> c
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: ba@ba.co
+
+The current state is q0
+The current state is q6 -> b
+The current state is q6 -> a
+The current state is q6 -> @
+The current state is q6 -> b
+The current state is q6 -> a
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q9 -> 
+
+String is accepted
+
+The URL is: cdef@.com
+
+The current state is q0
+The current state is q6 -> c
+The current state is q6 -> d
+The current state is q6 -> e
+The current state is q6 -> f
+The current state is q6 -> @
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: webweb.a.b.c.d.e@z.ai.cs.stanford.com
+
+The current state is q0
+The current state is q1 -> w
+The current state is q6 -> e
+The current state is q6 -> b
+The current state is q6 -> w
+The current state is q6 -> e
+The current state is q6 -> b
+The current state is q7 -> .
+The current state is q7 -> a
+The current state is q7 -> .
+The current state is q7 -> b
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q8 -> .
+The current state is q8 -> d
+The current state is q8 -> .
+The current state is q8 -> e
+The current state is q8 -> @
+The current state is q8 -> z
+The current state is q8 -> .
+The current state is q8 -> a
+The current state is q8 -> i
+The current state is q8 -> .
+The current state is q8 -> c
+The current state is q8 -> s
+The current state is q8 -> .
+The current state is q8 -> s
+The current state is q8 -> t
+The current state is q8 -> a
+The current state is q8 -> n
+The current state is q8 -> f
+The current state is q9 -> o
+The current state is q9 -> r
+The current state is q9 -> d
+The current state is q9 -> .
+The current state is q9 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: foo@goo.com..com
+
+The current state is q0
+The current state is q6 -> f
+The current state is q6 -> o
+The current state is q6 -> o
+The current state is q6 -> @
+The current state is q6 -> g
+The current state is q6 -> o
+The current state is q6 -> o
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q11 -> .
+The current state is q11 -> .
+The current state is q12 -> c
+The current state is q13 -> o
+The current state is q13 -> m
+The current state is q13 -> 
+
+String is accepted
+
+The URL is: abqe.@boom.com
+
+The current state is q0
+The current state is q6 -> a
+The current state is q6 -> b
+The current state is q6 -> q
+The current state is q6 -> e
+The current state is q7 -> .
+The current state is q7 -> @
+The current state is q7 -> b
+The current state is q7 -> o
+The current state is q7 -> o
+The current state is q7 -> m
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: comp@comp.com.
+
+The current state is q0
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q6 -> @
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q11 -> .
+The current state is q11 -> 
+
+String is rejected
+
+The URL is: redblue@green..com
+
+The current state is q0
+The current state is q6 -> r
+The current state is q6 -> e
+The current state is q6 -> d
+The current state is q6 -> b
+The current state is q6 -> l
+The current state is q6 -> u
+The current state is q6 -> e
+The current state is q6 -> @
+The current state is q6 -> g
+The current state is q6 -> r
+The current state is q6 -> e
+The current state is q6 -> e
+The current state is q6 -> n
+The current state is q7 -> .
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: random@com
+
+The current state is q0
+The current state is q6 -> r
+The current state is q6 -> a
+The current state is q6 -> n
+The current state is q6 -> d
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> @
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> 
+
+String is rejected
+
+The URL is: poke@a.com.com
+
+The current state is q0
+The current state is q6 -> p
+The current state is q6 -> o
+The current state is q6 -> k
+The current state is q6 -> e
+The current state is q6 -> @
+The current state is q6 -> a
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q11 -> .
+The current state is q12 -> c
+The current state is q13 -> o
+The current state is q13 -> m
+The current state is q13 -> 
+
+String is accepted
+
+The URL is: www@com.comp
+
+The current state is q0
+The current state is q1 -> w
+The current state is q2 -> w
+The current state is q3 -> w
+The current state is q3 -> @
+The current state is q3 -> c
+The current state is q3 -> o
+The current state is q3 -> m
+The current state is q4 -> .
+The current state is q5 -> c
+The current state is q5 -> o
+The current state is q5 -> m
+The current state is q5 -> p
+The current state is q5 -> 
+
+String is rejected
+
+The URL is: wwwb@com.co
+
+The current state is q0
+The current state is q1 -> w
+The current state is q2 -> w
+The current state is q3 -> w
+The current state is q3 -> b
+The current state is q3 -> @
+The current state is q3 -> c
+The current state is q3 -> o
+The current state is q3 -> m
+The current state is q4 -> .
+The current state is q5 -> c
+The current state is q5 -> o
+The current state is q5 -> 
+
+String is rejected
+
+The URL is: .two@three.com
+
+The current state is q0
+The current state is q0 -> .
+The current state is q6 -> t
+The current state is q6 -> w
+The current state is q6 -> o
+The current state is q6 -> @
+The current state is q6 -> t
+The current state is q6 -> h
+The current state is q6 -> r
+The current state is q6 -> e
+The current state is q6 -> e
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: food@for.com@
+
+The current state is q0
+The current state is q6 -> f
+The current state is q6 -> o
+The current state is q6 -> o
+The current state is q6 -> d
+The current state is q6 -> @
+The current state is q6 -> f
+The current state is q6 -> o
+The current state is q6 -> r
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> @
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: comp@company.co.com
+
+The current state is q0
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q6 -> @
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q6 -> a
+The current state is q6 -> n
+The current state is q6 -> y
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q9 -> .
+The current state is q9 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: computer@company.com.co
+
+The current state is q0
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q6 -> u
+The current state is q6 -> t
+The current state is q6 -> e
+The current state is q6 -> r
+The current state is q6 -> @
+The current state is q6 -> c
+The current state is q6 -> o
+The current state is q6 -> m
+The current state is q6 -> p
+The current state is q6 -> a
+The current state is q6 -> n
+The current state is q6 -> y
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q11 -> .
+The current state is q12 -> c
+The current state is q13 -> o
+The current state is q13 -> 
+
+String is accepted
+
+The URL is: @abcde.com
+
+The current state is q0
+The current state is q0 -> @
+The current state is q6 -> a
+The current state is q6 -> b
+The current state is q6 -> c
+The current state is q6 -> d
+The current state is q6 -> e
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: people.dog.cat@.com
+
+The current state is q0
+The current state is q6 -> p
+The current state is q6 -> e
+The current state is q6 -> o
+The current state is q6 -> p
+The current state is q6 -> l
+The current state is q6 -> e
+The current state is q7 -> .
+The current state is q7 -> d
+The current state is q7 -> o
+The current state is q7 -> g
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q8 -> a
+The current state is q8 -> t
+The current state is q8 -> @
+The current state is q8 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
+The URL is: cable..cord@fort.com
+
+The current state is q0
+The current state is q6 -> c
+The current state is q6 -> a
+The current state is q6 -> b
+The current state is q6 -> l
+The current state is q6 -> e
+The current state is q7 -> .
+The current state is q7 -> .
+The current state is q8 -> c
+The current state is q9 -> o
+The current state is q9 -> r
+The current state is q9 -> d
+The current state is q9 -> @
+The current state is q9 -> f
+The current state is q9 -> o
+The current state is q9 -> r
+The current state is q9 -> t
+The current state is q9 -> .
+The current state is q9 -> c
+The current state is q9 -> o
+The current state is q10 -> m
+The current state is q10 -> 
+
+String is accepted
+
